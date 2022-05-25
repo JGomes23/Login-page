@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/reset.css" />
+    <link rel="stylesheet" href="/style/cadastro.css" />
+  </head>
+  <body>
+    <div class="main-login">
+      <aside class="left-login">
+        <img
+          id="img"
+          src="/components/digital-transformation-animate.svg"
+          alt="Logo"
+        />
+      </aside>
+
+      <main class="right-login">
+        <div class="card-login">
+          <h1>Cadastre-se</h1>
+
+          <div class="textfied">
+            <label for="nome">Nome:</label>
+            <input
+              type="text"
+              id="nome"
+              placeholder="Digite seu primeiro Nome"
+              required
+            />
+
+            <div class="textfied">
+              <label for="Sobrenome">Sobrenome:</label>
+              <input
+                type="text"
+                id="sobrenome"
+                placeholder="Digite seu sobrenome"
+                required
+              />
+            </div>
+            <div class="textfied">
+              <label for="E-mail">E-mail</label>
+              <input
+                type="email"
+                id="E-mail"
+                placeholder="Digite seu E-mail"
+                required
+              />
+            </div>
+            <div class="textfied">
+              <label for="Celular">Celular</label>
+              <input
+                type="tel"
+                id="Celular"
+                placeholder="(XX) XXXXX-XXXX"
+                required
+              />
+            </div>
+            <div class="textfied">
+              <label for="Senha">Senha</label>
+              <input
+                type="password"
+                id="Senha"
+                placeholder="Digite sua Senha"
+                required
+              />
+            </div>
+            <div class="textfied">
+              <label for="CSenha">Confirme sua Senha</label>
+              <input
+                type="password"
+                id="CSenha"
+                placeholder="Digite sua Senha novamente"
+                required
+              />
+            </div>
+          </div>
+
+          <fieldset>
+            <legend>Gênero</legend>
+            <label for="Masculino"
+              ><input
+                type="radio"
+                name="Genero"
+                value="Masculino"
+                id="Masculino"
+              />Masculino</label
+            >
+
+            <label for="Feminino"
+              ><input
+                type="radio"
+                name="Genero"
+                value="Feminino"
+                id="Feminino"
+              />Feminino</label
+            >
+
+            <label for="Outros"
+              ><input
+                type="radio"
+                name="Genero"
+                value="Outros"
+                id="Outros"
+              />Outros</label
+            >
+            <label for="Não_dizer"
+              ><input
+                type="radio"
+                name="Genero"
+                value="Não_dizer"
+                id="Não_dizer"
+              />Prefiro não dizer</label
+            >
+          </fieldset>
+
+          <a href="/site/site.html"
+            ><input
+              style="margin-top: -6px"
+              type="submit"
+              value="Continuar"
+              class="Continuar"
+          /></a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
